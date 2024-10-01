@@ -1,5 +1,5 @@
 fun main() {
-    println("Введите слово:")
+    println("Введите слово (на английском):")
     var word = readLine() ?: return
     word = word.replace("""\W""".toRegex(), "")
     var word2 = word.lowercase().replace("""\W""".toRegex(), "")
